@@ -36,7 +36,7 @@ public class MarathonController {
 
     @GetMapping("/add")
     String gotoMarathon(Model model) {
-        throw new MyCustomException("Hello from exception");
+        throw new MyCustomException("No Page for Adding Marathons!!!!");
     }
 
     //TODO implement other needed methods

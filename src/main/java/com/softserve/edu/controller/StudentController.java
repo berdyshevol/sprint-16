@@ -35,7 +35,7 @@ public class StudentController {
 
     @GetMapping("/add")
     String gotoStudent(Model model) {
-        throw new MyCustomException("from Student");
+        throw new MyCustomException("No Student Add Page");
 
 //        model.addAttribute("student", new User());
 //        return "student";
